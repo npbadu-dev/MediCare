@@ -52,3 +52,10 @@
 .lobby-image{
     /* border-top-left-radius: 18px; */
 }
+
+/* ******************** */
+/* Feature Section */
+/* ******************** */
+.feature-section{
+  background-color: #f6f9fa;
+}
