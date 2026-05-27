@@ -6,8 +6,55 @@
     <title>FOODIE</title>
     <link rel="stylesheet" href="src/input.css" />
     <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/hero.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="main-container"></div>
+    <div class="main-container">
+      <div class="hero-section">
+        <header class="w-full h-10 bg-black">
+          <nav></nav>
+        </header>
+        <div class="hero grid grid-cols-1 gap-y-5 sm:grid-cols-2 px-5 pt-8 ">
+          <div class="hero-text">
+            <div class="hero-main-heading hero-mainheading-1 ">Welcome to</div>
+            <div class="hero-main-heading hero-mainheading-2">
+              MediCare Hospital
+            </div>
+            <div class="hero-subheading w-full mt-5.5 sm:mt-10 pr-5">
+              At MediCare Hospital, we combine advanced medical technology with
+              compassionate care to deliver exceptional healthcare services.
+              Your health and well-being are our top priorities.
+            </div>
+            <div
+              class="hero-button flex flex-col sm:flex-row gap-4 mt-6 w-full"
+            >
+              <a
+                href="pages/booking.html"
+                class="hero-btn-book text-center px-4 py-3 rounded-full w-full sm:w-auto"
+              >
+                Book an Appointment
+                <i class="fa-solid fa-angle-right ml-1.5"></i>
+              </a>
+
+              <a
+                href="pages/learnmore.html"
+                class="hero-btn-learnMore text-center px-4 py-3 rounded-full w-full sm:w-auto"
+              >
+                Learn More
+                <i class="fa-solid fa-angle-right ml-1.5"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="assests/lobby.jpg" alt="hospital lobby image" class=" rounded-tl-4xl rounded-br-4xl">
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
