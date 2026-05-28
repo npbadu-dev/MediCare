@@ -181,12 +181,6 @@
   }
 }
 @layer utilities {
-  .mx-3 {
-    margin-inline: calc(var(--spacing) * 3);
-  }
-  .mx-5 {
-    margin-inline: calc(var(--spacing) * 5);
-  }
   .flex {
     display: flex;
   }
@@ -235,9 +229,6 @@
   .gap-24 {
     gap: calc(var(--spacing) * 24);
   }
-  .rounded-lg {
-    border-radius: var(--radius-lg);
-  }
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
@@ -254,9 +245,6 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
-  .pt-3 {
-    padding-top: calc(var(--spacing) * 3);
-  }
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
@@ -266,15 +254,8 @@
   .pt-8 {
     padding-top: calc(var(--spacing) * 8);
   }
-  .pt-12 {
-    padding-top: calc(var(--spacing) * 12);
-  }
   .pt-18 {
     padding-top: calc(var(--spacing) * 18);
-  }
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-3xl {
     font-size: var(--text-3xl);
@@ -291,10 +272,6 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .font-medium {
-    --tw-font-weight: var(--font-weight-medium);
-    font-weight: var(--font-weight-medium);
-  }
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
@@ -302,20 +279,12 @@
   .text-\[\#333\] {
     color: #333;
   }
-  .text-\[var\(--primary-color\)\] {
-    color: var(--primary-color);
-  }
   .underline {
     text-decoration-line: underline;
   }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-  .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
@@ -338,22 +307,6 @@
       line-height: var(--tw-leading, var(--text-7xl--line-height));
     }
   }
-  .sm\:text-8xl {
-    @media (width >= 40rem) {
-      font-size: var(--text-8xl);
-      line-height: var(--tw-leading, var(--text-8xl--line-height));
-    }
-  }
-  .sm\:text-\[50px\] {
-    @media (width >= 40rem) {
-      font-size: 50px;
-    }
-  }
-  .sm\:text-\[82px\] {
-    @media (width >= 40rem) {
-      font-size: 82px;
-    }
-  }
   .md\:w-\[25ch\] {
     @media (width >= 48rem) {
       width: 25ch;
@@ -369,29 +322,14 @@
       gap: calc(var(--spacing) * 10);
     }
   }
-  .md\:gap-12 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 12);
-    }
-  }
-  .md\:gap-14 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 14);
-    }
-  }
-  .md\:gap-18 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 18);
-    }
-  }
-  .md\:gap-22 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 22);
-    }
-  }
   .md\:rounded-2xl {
     @media (width >= 48rem) {
       border-radius: var(--radius-2xl);
+    }
+  }
+  .md\:pt-22 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 22);
     }
   }
   .md\:text-4xl {
@@ -400,20 +338,9 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
-  .md\:text-8xl {
-    @media (width >= 48rem) {
-      font-size: var(--text-8xl);
-      line-height: var(--tw-leading, var(--text-8xl--line-height));
-    }
-  }
   .lg\:w-\[80\%\] {
     @media (width >= 64rem) {
       width: 80%;
-    }
-  }
-  .lg\:w-\[100\%\] {
-    @media (width >= 64rem) {
-      width: 100%;
     }
   }
 }

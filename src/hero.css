@@ -19,3 +19,9 @@
     color: var(--primary-color);
     padding: 5px 18px;
 }
+.hero-feature{
+    font-size: 1.6rem;
+}
+.feature-icon{
+    background-color: var(--primary-color);
+}
