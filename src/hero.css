@@ -23,5 +23,11 @@
     font-size: 1.6rem;
 }
 .feature-icon{
+    height: 3.8rem;
+    width: 3.8rem;
     background-color: var(--primary-color);
+    border-radius: 12px;
+}
+.feature-content{
+    color: var(--primary-color);
 }
