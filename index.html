@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/output.css" />
     <link rel="stylesheet" href="src/hero.css" />
     <link rel="stylesheet" href="src/feature.css" />
+    <link rel="stylesheet" href="src/nav.css" />
 
     <link
       rel="stylesheet"
@@ -16,10 +17,67 @@
   </head>
   <body>
     <div class="main-container">
+      <nav class="px-8 py-5 flex justify-between">
+        <div class="logo flex items-center">
+          <div class="logo-box">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h2>MediCare Hospital</h2>
+        </div>
+
+        <!-- Desktop Navigation Only -->
+        <div class="nav-2 flex gap-24">
+          <ul class="nav-desktop-list flex gap-8 pt-4">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Patients</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="nav-desktop-right flex gap-12">
+            <div class="nav-contact flex gap-3 items-center">
+              <div class="nav-contact-logo">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <h2 class="text-[16px] font-bold">+123 456 7890</h2>
+            </div>
+            <div class="nav-book">
+              <a href="#">Book an Appointment</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Icons -->
+        <div class="nav-3">
+          <h4><i class="fa-solid fa-phone"></i></h4>
+
+          <!-- Menu Open Button -->
+          <h4 id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+          </h4>
+        </div>
+      </nav>
+
+      <!-- Mobile navigation -->
+      <div class="mobile-menu" id="mobileMenu">
+
+        <!-- Close Button -->
+        <div class="close-btn" id="closeBtn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <ul class="nav-mobile-list">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Departments</a></li>
+          <li><a href="#">Patients</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        
+      </div>
+
       <div class="hero-section">
-        <header class="w-full h-10 bg-black">
-          <nav></nav>
-        </header>
         <div class="hero grid grid-cols-1 gap-y-5 sm:grid-cols-2 px-5 pt-8">
           <div class="hero-text">
             <div class="hero-main-heading hero-mainheading-1">Welcome to</div>
@@ -60,7 +118,7 @@
           </div>
         </div>
       </div>
-      <section class="py-16  mt-13 sm:mt-0 feature-section">
+      <section class="py-16 mt-13 sm:mt-0 feature-section">
         <div class="max-w-6xl mx-auto px-6">
           <!-- Row -->
           <div class="flex flex-row justify-between items-center gap-8">
@@ -92,7 +150,7 @@
             </div>
 
             <!-- Item 2 -->
-            <div class="flex flex-col items-center text-center ">
+            <div class="flex flex-col items-center text-center">
               <div
                 class="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4"
               >
@@ -148,5 +206,7 @@
         </div>
       </section>
     </div>
+
+    <script src="src/nav.js"></script>
   </body>
 </html>
