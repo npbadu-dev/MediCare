@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/hero.css" />
     <link rel="stylesheet" href="src/feature.css" />
     <link rel="stylesheet" href="src/nav.css" />
+    <link rel="stylesheet" href="src/about.css" />
 
     <link
       rel="stylesheet"
@@ -28,11 +29,11 @@
         <!-- Desktop Navigation Only -->
         <div class="nav-2 flex gap-24">
           <ul class="nav-desktop-list flex gap-8 pt-4">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Departments</a></li>
-            <li><a href="#">Patients</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#patients">Patients</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div class="nav-desktop-right flex gap-12">
@@ -67,16 +68,16 @@
         </div>
 
         <ul class="nav-mobile-list">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Departments</a></li>
-          <li><a href="#">Patients</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#patients">Patients</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
       <div
-        class="hero-section grid grid-cols-1 gap-5 md:grid-cols-2 px-6 sm:px-14 pt-8 sm:pt-22"
+        class="hero-section md:h-[80vh] grid grid-cols-1 gap-5 md:grid-cols-2 px-6 sm:px-14 pt-8 sm:pt-22"
       >
         <div class="hero-left-container">
           <div
@@ -112,7 +113,7 @@
 
           <div class="hero-feature flex gap-8 md:gap-14 pt-18 md:pt-22">
             <div
-              class="feature-1  flex flex-col md:flex-row items-center gap-3 justify-center"
+              class="feature-1 flex flex-col md:flex-row items-center gap-3 justify-center"
             >
               <div
                 class="feature-icon flex items-center justify-center text-4xl"
@@ -132,7 +133,9 @@
               >
                 <i class="fa-solid fa-computer"></i>
               </div>
-              <div class="feature-content text-center">Advanced <br />Technology</div>
+              <div class="feature-content text-center">
+                Advanced <br />Technology
+              </div>
             </div>
             <div
               class="feature-3 flex flex-col md:flex-row items-center gap-3 justify-center"
@@ -142,13 +145,93 @@
               >
                 <i class="fa-solid fa-stethoscope"></i>
               </div>
-              <div class="feature-content text-center md:text-left">Patient-Centered <br />Care</div>
+              <div class="feature-content text-center md:text-left">
+                Patient-Centered <br />Care
+              </div>
             </div>
           </div>
-
         </div>
         <div class="hero-right-container">
-          <img src="assests/lobby.jpg" alt="hospital lobby" class="rounded-tl-3xl rounded-br-3xl md:rounded-tl-[3.2rem] md:rounded-br-[3.2rem]"/>
+          <img
+            src="assests/lobby.jpg"
+            alt="hospital lobby"
+            class="rounded-tl-3xl rounded-br-3xl md:rounded-tl-[3.2rem] md:rounded-br-[3.2rem]"
+          />
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="about-section pt-10 px-8 grid grid-cols-1 md:grid-cols-2 md:gap-10" id="about">
+        <div class="about-right md:order-2">
+          <div
+            class="about-heading text-[18px] font-medium md:text-[28px] md:font-semibold"
+          >
+            About US
+          </div>
+          <div class="about-main-heading pt-3 text-[24px] font-semibold">
+            Your Health, <br />
+            Our Mission
+          </div>
+          <div class="about-context pt-4 text-[16px]">
+            <div class="about-context-1">
+              MediCare Hospital is devoted to providing comprehensive and
+              personalized care. We focus on prevention, treatment, and wellness
+              empowering you to enjoy your best life.
+            </div>
+            <div class="about-context-2 pt-4">
+              Our expert team works with kindness and integrity to ensure your
+              well-being in a safe and supportive environment.
+            </div>
+            <div class="about-image flex md:hidden pt-6">
+              <img src="assests/hospital-room.avif" alt="Hospital room" />
+            </div>
+          </div>
+          <div class="about-features grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-15 pt-8 pl-15">
+            <div class="about-feature-1 flex gap-4">
+              <div class="about-feature-logo">
+                <i class="fa-solid fa-user-group"></i>
+              </div>
+              <div class="about-feature-context">
+                <div class="about-feature-heading text-[16px] font-medium">Quality Care</div>
+                <div class="about-feature-subheading text-[14px] font-normal">High Standards  Care</div>
+              </div>
+            </div>
+
+            <div class="about-feature-2 flex gap-4">
+              <div class="about-feature-logo">
+                <i class="fa-solid fa-user-gear"></i>
+              </div>
+              <div class="about-feature-context">
+                <div class="about-feature-heading text-[16px] font-medium">24/7 service</div>
+                <div class="about-feature-subheading text-[14px]">Full-time care and support</div>
+              </div>
+            </div>
+            <div class="about-feature-3 flex gap-4">
+              <div class="about-feature-logo">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <div class="about-feature-context">
+                <div class="about-feature-heading text-[16px] font-medium">Expert Team</div>
+                <div class="about-feature-subheading text-[14px]">Highly skilled doctors</div>
+              </div>
+            </div>
+            <div class="about-feature-4 flex gap-4">
+              <div class="about-feature-logo">
+                <i class="fa-solid fa-user-shield"></i>
+              </div>
+              <div class="about-feature-context">
+                <div class="about-feature-heading text-[16px] font-medium"> Patient Safety</div>
+                <div class="about-feature-subheading text-[14px]">
+                  Your safety is our highest priority.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-left md:order-1">
+          <div class="about-image hidden md:block">
+            <img src="assests/hospital-room.avif" alt="Hospital Room" class="about-left-img"/>
+          </div>
         </div>
       </div>
     </div>
