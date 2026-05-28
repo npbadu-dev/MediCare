@@ -1,0 +1,33 @@
+nav {
+  font-size: 18px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo-box{
+    background: var(--primary-color);
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+.logo h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.nav-desktop-list li{
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-contact-logo{
+    color: var(--primary-color);
+}
+.nav-book{
+    
+}
