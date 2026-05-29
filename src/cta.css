@@ -1,0 +1,21 @@
+.cta-section{
+    background-color: #ebf0f3;
+}
+.cta-content{
+    border: 2px solid rgba(0, 0, 0, 0.159);
+    background-color: white;
+    border-radius: 12px;
+  /* font-size: 24px; */
+}
+.cta-submit{
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.cta-submit:hover{
+    border: 2px solid rgba(0, 0, 0, 0.182);
+    color: var(--primary-color);
+    background-color: white;
+    cursor: pointer;
+}
