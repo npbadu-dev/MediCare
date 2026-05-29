@@ -9,4 +9,15 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
+.primary-color{
+  color: var(--primary-color);
+}
+.card-box-shadow-effect{
+  transition: all 0.3s ease-in-out;
+}
+.card-box-shadow-effect:hover{
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.18);
+  transform: translateY(-9px);
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.202);
+}

@@ -1,0 +1,19 @@
+.special-section{
+  background-color: #ebf0f3;
+}
+.special-card-1{
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.202);
+    background-color: #fff;
+    /* padding: 22px 38px; */
+}
+.special-card-learn{
+    transition: all 0.3s ease-in-out;
+   
+}
+.special-card-learn:hover{
+    color: #0a6966;
+    text-decoration: underline;
+    font-weight: 700;
+}
