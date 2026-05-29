@@ -11,3 +11,12 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   mobileMenu.classList.remove("active");
 });
+
+// Close menu when clicking mobile links
+const mobileLinks = document.querySelectorAll(".nav-mobile-list a");
+
+mobileLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+  });
+});
