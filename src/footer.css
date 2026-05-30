@@ -1,0 +1,21 @@
+.footer-section{
+    background-color: var(--primary-color);
+    color: white;
+}
+.footer-copyright{
+    border-top: 2px solid rgba(0, 0, 0, 0.189);
+}
+.footer-social-icon a{
+    transition: all 0.3s ease-in-out;
+}
+.footer-social-icon a:hover{
+    color: #aaa;
+    cursor: pointer;
+}
+.footer-nav-links ul li a{
+    transition: all 0.3s ease-in-out;
+}
+.footer-nav-links ul li a:hover{
+    color: #aaa;
+    cursor: pointer;
+}
